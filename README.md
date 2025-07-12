@@ -38,9 +38,10 @@ body::before {
     color: white;
     text-align: center;
     font-weight: bold;
-    padding: 2px;
-    height: 24px;
-    line-height: 20px;
+    padding: 0px;
+    height: 18px;
+    line-height: 16px;
+    font-size: 12px;
 }
 ```
 
@@ -53,9 +54,10 @@ body::before {
     color: white;
     text-align: center;
     font-weight: bold;
-    padding: 2px;
-    height: 24px;
-    line-height: 20px;
+    padding: 0px;
+    height: 18px;
+    line-height: 16px;
+    font-size: 12px;
 }
 ```
 
@@ -68,9 +70,10 @@ body::before {
     color: white;
     text-align: center;
     font-weight: bold;
-    padding: 2px;
-    height: 24px;
-    line-height: 20px;
+    padding: 0px;
+    height: 18px;
+    line-height: 16px;
+    font-size: 12px;
 }
 ```
 
@@ -83,9 +86,10 @@ body::before {
     color: white;
     text-align: center;
     font-weight: bold;
-    padding: 2px;
-    height: 24px;
-    line-height: 20px;
+    padding: 0px;
+    height: 18px;
+    line-height: 16px;
+    font-size: 12px;
 }
 ```
 
