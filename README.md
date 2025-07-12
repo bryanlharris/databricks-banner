@@ -30,18 +30,6 @@ Repeat this process for each environment.
 6. Paste the following CSS:
 
 ```css
-body::before {
-    content: "DEV ENVIRONMENT";
-    display: block;
-    background: gray;
-    color: white;
-    text-align: center;
-    font-weight: bold;
-    padding: 2px;
-    height: 24px;
-    line-height: 20px;
-}
-
 /* === HOME ENVIRONMENT (Green) === */
 body::before {
     content: "HOME ENVIRONMENT";
@@ -54,8 +42,9 @@ body::before {
     height: 24px;
     line-height: 20px;
 }
+```
 
-
+```css
 /* === DEV ENVIRONMENT (Green) === */
 body::before {
     content: "DEV ENVIRONMENT";
@@ -68,8 +57,9 @@ body::before {
     height: 24px;
     line-height: 20px;
 }
+```
 
-
+```css
 /* === STAGING ENVIRONMENT (Blue) === */
 body::before {
     content: "STAGING ENVIRONMENT";
@@ -82,8 +72,9 @@ body::before {
     height: 24px;
     line-height: 20px;
 }
+```
 
-
+```css
 /* === PRODUCTION ENVIRONMENT (Red) === */
 body::before {
     content: "PRODUCTION ENVIRONMENT";
@@ -96,5 +87,6 @@ body::before {
     height: 24px;
     line-height: 20px;
 }
+```
 
 
